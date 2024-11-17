@@ -1,0 +1,51 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "npm run dev",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@craco/craco": "^5.9.0",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "cougarecho": "file:..",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^0.452.0",
+    "nth-check": "^2.1.1",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.5",
+    "react-datepicker": "^7.4.0",
+    "react-dom": "^18.3.1",
+    "react-h5-audio-player": "^3.9.3",
+    "react-native": "^0.75.4",
+    "react-pro-sidebar": "^1.1.0",
+    "react-router-dom": "^6.28.0",
+    "reactstrap": "^9.2.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.11.1",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.47",
+    "postcss-loader": "^8.1.1",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.8"
+  }
+}

@@ -1,0 +1,35 @@
+/* Flexbox layout for the app */
+.artisthome-layout {
+    display: flex;
+    min-height: 100vh; /* Full height of the viewport */
+  }
+  
+  /* Sidebar styling */
+  .sidebar {
+    width: 250px; /* Fixed width for the sidebar */
+    background-color: #333; /* Sidebar background color */
+    color: white; /* Text color */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Content view styling */
+  .content-view {
+    flex-grow: 1; /* Takes up the remaining space */
+    padding: 20px;
+    background-color: #f5f5f5; /* Light background for contrast */
+    box-sizing: border-box;
+  }
+  /* App.css */
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr; /* Narrow column (100px), wide columns (equal width) */
+  gap: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+  border: 1px solid #ccc;
+}
